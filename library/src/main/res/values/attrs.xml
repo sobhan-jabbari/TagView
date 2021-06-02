@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TagGroup">
+        <attr name="vertical_interval" format="dimension" />
+        <attr name="horizontal_interval" format="dimension" />
+
+        <attr name="group_border_width" format="dimension" />
+        <attr name="group_border_radius" format="dimension" />
+        <attr name="group_border_color" format="color" />
+        <attr name="group_background_color" format="color" />
+        <attr name="group_enable_drag" format="boolean" />
+        <attr name="group_drag_sensitivity" format="float" />
+        <attr name="group_gravity" format="enum">
+            <enum name="left" value="3" />
+            <enum name="center" value="17" />
+            <enum name="right" value="5" />
+        </attr>
+
+        <attr name="tag_border_width" format="dimension" />
+        <attr name="tag_corner_radius" format="dimension" />
+        <attr name="tag_horizontal_padding" format="dimension" />
+        <attr name="tag_vertical_padding" format="dimension" />
+        <attr name="tag_text_size" format="dimension" />
+        <attr name="tag_bd_distance" format="dimension" />
+        <attr name="tag_text_color" format="color" />
+        <attr name="tag_border_color" format="color" />
+        <attr name="tag_background_color" format="color" />
+        <attr name="tag_max_length" format="integer" />
+       <!-- <attr name="tag_clickable" format="boolean" />-->
+        <attr name="tag_drawable_state0" format="reference" />
+        <attr name="tag_drawable_state1" format="reference" />
+        <attr name="tag_drawable_state2" format="reference" />
+        <attr name="tag_drawable_state3" format="reference" />
+        <attr name="tag_drawable_state4" format="reference" />
+        <attr name="tag_drawable_state5" format="reference" />
+        <attr name="tag_typeface" format="string" />
+        <attr name="tag_theme" format="enum">
+            <enum name="none" value="-1" />
+            <enum name="random" value="0" />
+            <enum name="pure_cyan" value="1" />
+            <enum name="pure_teal" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TagViewColorTheme">
+        <attr name="tg_border_color" format="color" />
+        <attr name="tg_background_color" format="color" />
+        <attr name="tg_text_color" format="color" />
+    </declare-styleable>
+</resources>
